@@ -1,0 +1,97 @@
+.video_preview
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 30px;
+    padding-left: 110px;
+}
+@media (max-width:1396px){
+    .video_preview{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (max-width:956px ) {
+    .video_preview{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .notification_number{
+        opacity: 0;
+    }
+    .search{
+        width: 20px;
+    }
+    .logo
+    {
+        height: 36px;
+    }
+}
+
+.thumbnail{
+    
+    width: 100%;
+    border-radius: 20px;
+}
+.author_img{
+    display: inline-block;
+    vertical-align: top;
+}
+.channel_icon{
+    height: 50px;
+    border-radius: 50px;
+}
+.author{
+    margin-bottom: 3px;
+}
+.video_desc{
+    display: inline-block;
+    margin-left: 5px;
+    color: rgb(216, 215, 215);
+}
+.video_title{
+    font-size :xx-large;
+    vertical-align: top;
+    margin-bottom: 5px;
+    font-family: 'Bungee Spice', cursive;
+font-family: 'Roboto', sans-serif;
+font-size: 18px;
+font-style: bold;
+color: rgb(255, 255, 255);
+}
+.video1 /*lly set all video same positon as relative for absolute positon of time*/ 
+{
+    position: relative;
+    /* for adding time div we need to set video as relative
+    so that time with postion of absolute sticks wrt to relative positon of videos */
+}
+.video_time
+{
+    position: absolute;
+    background-color: black;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:600 ;
+    color: white;
+    bottom: 75px;
+    right: 5px;
+    padding: 4px;
+}
+.video_time2
+{
+    position: absolute;
+    background-color: black;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:600 ;
+    color: white;
+    bottom: 75px;
+    right: 5px;
+    padding: 4px;
+}
+body{
+    background-color: #000000;
+    margin: 0%;
+    padding-top:130px;
+}

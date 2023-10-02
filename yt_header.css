@@ -1,0 +1,128 @@
+.header
+{  /*we set z-index of header to 100 so z-index of video is 0 so it not appear/overflow over headear as we given its positon as relative */
+    z-index: 100;
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position:fixed;
+    background-color: rgb(0, 0, 0);
+    top: 0%;
+    width: 100%;
+    
+    align-items: center;
+/*align-items will align all items/icon/logo of header to centre as it is flexbox and it have elements in it*/
+
+}
+    .left_Section{
+    display: flex;
+    width: 250px;
+}
+.hamburger
+{
+    height: 40px;
+    padding: 5px;
+    display: flex;
+    margin-left: 25px;
+    border: 0px;
+    fill: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+}
+.logo
+{
+    display: flex;
+    height: 36px;
+    background-color: white;
+    margin-left: 24px;
+    border:0px;
+}
+.middle_section{
+    display: flex;
+    flex: 1;
+    max-width: 720px;
+    margin-left: 70px;
+    margin-right: 50px;
+}
+.search
+{
+    display: flex;
+    flex: 1;
+  
+    height: 45px;
+    border-right: solid 1px rgb(52, 50, 50);
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    margin-right: 1px;
+}
+.search_bar
+{
+    display: flex;
+    flex: 1;
+}
+.search-input{
+    display: flex;
+    flex: 1;
+}
+.search::placeholder
+{
+    font-size: 20px;
+    padding-left: 30px;
+    margin-left: 5px;
+}
+.search_icon
+{
+    display: flex;
+    height: 50px;
+    border: none;
+    border-left: 0px ;
+    border-top-right-radius:25px;
+    border-bottom-right-radius: 25px;
+    width: 70px;
+    background-color:rgb(30, 29, 29);
+}
+.right_Section{
+    
+    width: 200px;
+    display: flex;
+    column-gap: 12px;
+    justify-content: space-between;
+    margin-right: 25px;
+}
+.video_icon
+{
+    display: flex;
+    height: 35px;
+    border: 0px;
+    border-radius: 25px;
+    background-color: transparent;
+}
+.notification_bell
+{
+    display: flex;
+    height: 35px;  
+    border: 0px;
+    border-radius: 25px;
+    background-color: transparent;
+}
+.notification_number
+{
+    position: absolute;
+    background-color: red;
+    color: white;
+    right:100px;
+    top:22px;
+    border-radius: 25px;
+    padding: 4px;
+    font-family: roboto,arial;
+}
+.pfp
+{
+    height: 30px;
+    display: flex;
+    border-radius: 25px;
+}
+.pfp_button
+{
+    border: none;
+     background-color: transparent;
+}
